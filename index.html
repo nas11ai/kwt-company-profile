@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kelompok Tani Seraya</title>
-  <link href="./output.css" rel="stylesheet" />
+  <!-- <link href="output.css" rel="stylesheet" /> -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -90,57 +91,61 @@
     </div>
   </section>
 
-  <section id="penghargaan">
-    <div id="container" class="flex items-center justify-center py-10 space-x-10 gap-10">
-      <div id="text-penghargaan" class="flex flex-col w-[50%]">
-        <h1 class="font-montserrat font-bold text-3xl">Penghargaan</h1>
-        <p class="font-roboto py-3 font-[400]">
-          Kelompok Wanita Tani RT 28 Sepinggan Raya telah menerima penghargaan
-          dari berbagai pihak atas kontribusi dalam sektor pertanian lokal,
-          termasuk penghargaan Kolabolator Program Pemberdayaan Masyarakat
-          dalam Pilah dan Olah Sampah di Balikpapan.
-        </p>
-        <div class="flex space-x-10">
-          <button
-            class="flex w-36 h-8 rounded-xl text-center items-center justify-center py-5 px-2 text-[#53C351] font-roboto font-bold border-2 border-green-500">
-            <a href="https://kaltim.tribunnews.com/2022/02/17/bantu-kelompok-wanita-tani-kancab-bandara-sams-sepinggan-balikpapan-serahkan-1-ton-pupuk-kompos"
-              target="_blank">Lihat Disini</a>
-          </button>
+  <div class="h-screen py-10">
+    <section id="penghargaan">
+      <div id="container" class="flex items-center justify-center py-10 space-x-10 gap-10">
+        <div id="text-penghargaan" class="flex flex-col w-[50%]">
+          <h1 class="font-montserrat font-bold text-3xl">Penghargaan</h1>
+          <p class="font-roboto py-3 font-[400]">
+            Kelompok Wanita Tani RT 28 Sepinggan Raya telah menerima penghargaan
+            dari berbagai pihak atas kontribusi dalam sektor pertanian lokal,
+            termasuk penghargaan Kolabolator Program Pemberdayaan Masyarakat
+            dalam Pilah dan Olah Sampah di Balikpapan.
+          </p>
+          <div class="flex space-x-10">
+            <button
+              class="flex w-36 h-8 rounded-xl text-center items-center justify-center py-5 px-2 text-[#53C351] font-roboto font-bold border-2 border-green-500">
+              <a href="https://kaltim.tribunnews.com/2022/02/17/bantu-kelompok-wanita-tani-kancab-bandara-sams-sepinggan-balikpapan-serahkan-1-ton-pupuk-kompos"
+                target="_blank">Lihat Disini</a>
+            </button>
+          </div>
+        </div>
+        <div id="image-kegiatan" class="relative w-auto h-auto">
+          <img src="./assets/undraw_join_re_w1lh.svg" alt="kegiatan" class="relative z-10" width="200" height="200" />
         </div>
       </div>
-      <div id="image-kegiatan" class="relative w-auto h-auto">
-        <img src="./assets/undraw_join_re_w1lh.svg" alt="kegiatan" class="relative z-10" width="200" height="200" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="mitra-terpercaya">
-    <div id="container" class="flex items-center justify-center py-10 space-x-10 gap-10">
-      <div id="image-kegiatan" class="relative w-auto h-auto">
-        <img src="./assets/undraw_takeout_boxes_ap54.svg" alt="kegiatan" class="relative z-10" width="300"
-          height="200" />
-      </div>
+    <section id="mitra-terpercaya">
+      <div id="container" class="flex items-center justify-center py-10 space-x-10 gap-10">
+        <div id="image-kegiatan" class="relative w-auto h-auto">
+          <img src="./assets/undraw_takeout_boxes_ap54.svg" alt="kegiatan" class="relative z-10" width="300"
+            height="200" />
+        </div>
 
-      <div id="text-mitra-terpercaya" class="flex flex-col w-[50%]">
-        <h1 class="font-montserrat font-bold text-3xl">Mitra Terpercaya</h1>
-        <p class="font-roboto py-3 font-[400]">
-          Kami bangga menjalin kemitraan dengan para pelanggan dan mitra
-          terpercaya kami, termasuk supermarket lokal. Produk kami selalu
-          terjual cepat dan laku di pasaran karena kualitas yang baik dan
-          hasil panen yang sega rlangsung dari petani wanita kami.
-        </p>
-        <div class="flex space-x-10">
-          <button
-            class="flex w-36 h-8 rounded-xl text-center items-center justify-center py-5 px-2 text-[#53C351] font-roboto font-bold border-2 border-green-500">
-            <a href="https://wa.me/6281254046760" target="_blank">Pesan Sekarang</a>
-          </button>
+        <div id="text-mitra-terpercaya" class="flex flex-col w-[50%]">
+          <h1 class="font-montserrat font-bold text-3xl">Mitra Terpercaya</h1>
+          <p class="font-roboto py-3 font-[400]">
+            Kami bangga menjalin kemitraan dengan para pelanggan dan mitra
+            terpercaya kami, termasuk supermarket lokal. Produk kami selalu
+            terjual cepat dan laku di pasaran karena kualitas yang baik dan
+            hasil panen yang segar langsung dari petani wanita kami.
+          </p>
+          <div class="flex space-x-10">
+            <button
+              class="flex w-36 h-8 rounded-xl text-center items-center justify-center py-5 px-2 text-[#53C351] font-roboto font-bold border-2 border-green-500">
+              <a href="https://wa.me/6281254046760" target="_blank">Pesan Sekarang</a>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </div>
+
 
   <section id="kegiatan-kami">
-    <div class="flex flex-col font-montserrat font-bold text-3xl text-center py-10 space-y-3">
+    <div class="flex flex-col font-montserrat font-bold text-3xl text-center space-y-3">
       <h1>Kegiatan Kami</h1>
       <p class="font-normal text-xl">
         Rutinitas Kelompok Wanita Tani RT. 28 Seraya
